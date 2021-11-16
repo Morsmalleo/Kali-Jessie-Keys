@@ -5,4 +5,4 @@ Backup of the Debian Jessie Archive Keys used in the old Kali-archive-keyring, r
 To install the keys its as easy as 1, 2, 3.
 1. git clone https://github.com/Morsmalleo/Kali-Jessie-Keys
 2. cd Kali-Jessie-Keys
-3. sudo mv 
+3. sudo mv `debian-jessie-archive-stable debian-jessie-archive-security debian-jessie-archive-keyring` /etc/apt/trusted.gpg.d
